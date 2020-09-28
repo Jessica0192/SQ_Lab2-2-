@@ -41,5 +41,15 @@ namespace TestTriangle
             var resultArea = triangle.CalculateArea(10, 20);
             Assert.AreEqual(100, resultArea, 0.1);
         }
+
+        [TestMethod]
+        public void TestCalculateAngle_NotRightAngle_ReturnOne()
+        {
+
+            var triangle = new Lab2.Triangle();
+
+            var missingAngle = triangle.CalculateMissingAngle(70, 80);
+            Assert.AreEqual(30, missingAngle);
+        }
     }
 }
