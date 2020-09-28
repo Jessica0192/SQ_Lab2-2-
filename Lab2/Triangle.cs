@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Lab2
 {
-    class Triangle
+    public class Triangle
     {
+        public double CalculateHypotenuse(double A, double B)
+        {
+            return 1;
+        }
     }
 }
