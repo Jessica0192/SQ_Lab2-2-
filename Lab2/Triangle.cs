@@ -15,8 +15,7 @@ namespace Lab2
 
         public double CalculateArea(double A, double B)
         {
-            double area = 0.5 * A * B;
-            return area;
+            return 1;
         }
 
         public double CalculateMissingAngle(double firstAng, double secondAng)
