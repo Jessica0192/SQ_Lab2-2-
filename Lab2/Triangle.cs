@@ -15,7 +15,8 @@ namespace Lab2
 
         public double CalculateArea(double A, double B)
         {
-            return 1;
+            double area = 0.5 * A * B;
+            return area;
         }
     }
 }
