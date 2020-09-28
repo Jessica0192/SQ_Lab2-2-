@@ -14,5 +14,14 @@ namespace TestTriangle
                 var result = triangle.CalculateHypotenuse(2, 4);
                 Assert.AreEqual(4.472135954999579, result, 0.1);
             }
+
+        [TestMethod]
+        public void TestCalculateHypotenuse_RightHypotenuse_ReturnRightResult()
+        {
+            var triangle = new Lab2.Triangle();
+
+            var result = triangle.CalculateHypotenuse(2, 4);
+            Assert.AreEqual(4.472135954999579, result, 0.1);
+        }
     }
 }

@@ -12,5 +12,10 @@ namespace Lab2
 
             return hypo;
         }
+
+        public double CalculateArea(double A, double B)
+        {
+            return 1;
+        }
     }
 }
