@@ -32,5 +32,14 @@ namespace TestTriangle
             var resultArea = triangle.CalculateArea(10, 20);
             Assert.AreEqual(100, resultArea, 0.1);
         }
+
+        [TestMethod]
+        public void TestCalculateArea_RightArea_ReturnRightResult()
+        {
+            var triangle = new Lab2.Triangle();
+
+            var resultArea = triangle.CalculateArea(10, 20);
+            Assert.AreEqual(100, resultArea, 0.1);
+        }
     }
 }
