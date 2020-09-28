@@ -21,7 +21,10 @@ namespace Lab2
 
         public double CalculateMissingAngle(double firstAng, double secondAng)
         {
-            return 1;
+            int total = 180;
+            double angle = total - firstAng - secondAng;
+
+            return angle;
         }
     }
 }
