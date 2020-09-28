@@ -23,5 +23,14 @@ namespace TestTriangle
             var result = triangle.CalculateHypotenuse(2, 4);
             Assert.AreEqual(4.472135954999579, result, 0.1);
         }
+
+        [TestMethod]
+        public void TestCalculateArea_NotRightArea_ReturnOne()
+        {
+            var triangle = new Lab2.Triangle();
+
+            var resultArea = triangle.CalculateArea(10, 20);
+            Assert.AreEqual(100, resultArea, 0.1);
+        }
     }
 }
